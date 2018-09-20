@@ -2,14 +2,14 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-content: flex-start;
   }
 html, body{
   width: 100%;
   height: 100%;
 }
 div{
-  flex: 1;
+
 }
 #vert{
   background-color: #2ECC71;
@@ -24,19 +24,37 @@ div{
 #corail{
   background-color: #E74C3C;
   flex-basis: 25%;
-  height: 100px;
+  height: 120px;
 }
 
 #parent{
   flex: 1;
   background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
 }
 #ocre{
   background-color: #E67E22;
-  flex-basis: 20%;
-  height: 40px;
-}#bleu{
+  flex-basis: 50%;
+  height: 60px;
+}
+#gris{
   background-color: #95A5A6;
-  flex-basis: 20%;
-  height: 40px;
+  flex-basis: 50%;
+  height: 60px;
+}
+#rect1{
+  background-color: #F39C12;
+  flex-basis: 33.333%;
+  height: 60px;
+}
+#rect2{
+  background-color: #16A085;
+  flex-basis: 33.333%;
+  height: 60px;
+}
+#rect3{
+  background-color: #D35400;
+  flex-basis: 33.333%;
+  height: 60px;
 }
